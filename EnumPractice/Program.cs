@@ -11,7 +11,7 @@ namespace EnumPractice
         static void Main(string[] args)
         {
             MyFile file1 = new MyFile("picture.txt", @"C:\users\cseguin\" /* @ signifies no escape character */
-                , Rights.READABLE | Rights.WRITABLE, null);
+                , Rights.READABLE, null);
 
             // how do we know which permissions were set on file 1?
 
